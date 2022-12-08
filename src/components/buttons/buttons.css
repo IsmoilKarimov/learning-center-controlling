@@ -1,0 +1,29 @@
+.buttons {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+.buttons a {
+  padding: 19px 30px;
+  background-color: rgb(25, 140, 163);
+  color: #fff;
+  border-radius: 12px;
+  font-size: 18px;
+  margin: 0px 15px;
+  transition: 0.4s;
+}
+.buttons a:hover {
+  background-color: rgb(19, 107, 124);
+}
+.buttons a.group {
+  background-color: rgb(54, 201, 108);
+}
+.buttons a.group:hover {
+  background-color: rgb(41, 124, 71);
+}
+.buttons a.room {
+  background-color: rgb(192, 60, 164);
+}
+.buttons a.room:hover {
+  background-color: rgb(138, 32, 115);
+}/*# sourceMappingURL=buttons.css.map */

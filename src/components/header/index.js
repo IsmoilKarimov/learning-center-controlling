@@ -1,10 +1,12 @@
 import React from "react";
 import {Link} from "react-router-dom"
 import './header.scss'
+import Search  from "../search/Search";
 
 const Header = () => {
     return(
         <header>
+            {/* <Search/> */}
             <div className="header">
                 <Link to='/' className="header__logo">
                     <span className="header__logo--icon">

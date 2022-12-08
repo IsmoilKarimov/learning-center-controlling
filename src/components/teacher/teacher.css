@@ -1,0 +1,12 @@
+.teacher {
+  padding: 19px 30px;
+  background-color: rgb(25, 140, 163);
+  color: #fff;
+  border-radius: 12px;
+  font-size: 18px;
+  margin: 0px 15px;
+  transition: 0.4s;
+}
+.teacher:hover {
+  background-color: rgb(19, 107, 124);
+}/*# sourceMappingURL=teacher.css.map */

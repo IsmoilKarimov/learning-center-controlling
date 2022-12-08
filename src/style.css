@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Mulish:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  background-color: #F7F7FC;
+  color: #11142D;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+button,
+input {
+  border: 0;
+  cursor: pointer;
+}
+button:focus,
+input:focus {
+  outline: 0;
+}
+
+.main {
+  display: flex;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.wrapper {
+  flex-basis: calc(100vw - 256px);
+  max-width: calc(100vw - 256px);
+  width: calc(100vw - 256px);
+  height: calc(100vh - 82px);
+  padding: 32px;
+  overflow: auto;
+}/*# sourceMappingURL=style.css.map */

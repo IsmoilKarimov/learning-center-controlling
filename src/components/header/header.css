@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Mulish:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap");
+.header {
+  background-color: #fff;
+  padding: 20px 50px 20px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #F7F7FC;
+}
+.header__logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+.header__logo--icon {
+  color: #5541D7;
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+  background-color: #F7F7FC;
+  padding: 10px;
+  border-radius: 8px;
+}
+.header__profile {
+  display: flex;
+  align-items: center;
+}
+.header__profile--img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #F7F7FC;
+  margin-right: 16px;
+}
+.header__profile--name {
+  display: block;
+  font-weight: 700;
+}
+.header__profile--email {
+  font-style: 12px;
+  color: #6a6a79;
+  font-weight: 500;
+}/*# sourceMappingURL=header.css.map */

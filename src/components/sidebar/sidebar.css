@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Mulish:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap");
+.sidebar {
+  background-color: #fff;
+  height: calc(100vh - 82px);
+  width: 256px;
+}
+.sidebar__menu {
+  padding: 20px 16px;
+}
+.sidebar__menu a {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  transition: 0.2s;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+.sidebar__menu a.active, .sidebar__menu a:hover {
+  background-color: #5541D7;
+  color: #fff;
+}
+.sidebar__menu a.active i, .sidebar__menu a:hover i {
+  color: #fff;
+}
+.sidebar__menu a i {
+  color: #9A9AB0;
+  margin-right: 18px;
+}/*# sourceMappingURL=sidebar.css.map */

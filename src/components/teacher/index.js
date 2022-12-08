@@ -45,7 +45,7 @@ const Teacher = () => {
           <form className="add__form" action="#">
             <input className="add__form-input" type="text" placeholder="O'qituvchining ism familiyasi"/>
             <input className="add__form-input" type="text" placeholder="O'qituvchining mutaxassisligi"/>
-            <input className="add__form-input" type="text" placeholder="O'qituvchining tajribasi (yillik)"/>
+            <input className="add__form-input" type="text" placeholder="O'qituvchining ish vaqti"/>
           </form>
         </Modal>
       </div>

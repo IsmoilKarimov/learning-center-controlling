@@ -10,3 +10,31 @@
         background-color: rgb(19, 107, 124);
     }
 }
+
+.add__teacher-title {
+    text-align: center;
+    font-size: 25px;
+    opacity: 0.8;
+    padding: 20px 0;
+}
+
+
+.add__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.add__form-input {
+    width: 400px;
+    height: 45px;
+    border: 1px solid ;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
